@@ -5,8 +5,15 @@
     <title>Aplicación de preguntas</title>
     <link href="styles.css" rel="stylesheet" />
     <style>
+      #Contador1 {
+        font-weight: 500;
+        font-size: 55px;
+        color: red;
+      }
       #pregunta-texto {
-        font-size: 60px;
+        font-size: 70px;
+        font-weight: 900;
+        text-align: center;
       }
       /* Estilos adicionales */
       #contenedor-pregunta {
@@ -27,7 +34,9 @@
       <h1 class="text-5xl mb-8">Pregunta</h1>
       <p id="pregunta-texto" class="mb-8"></p>
       <div id="contenedor-contador" class="mb-8">
-        <h2 class="text-2xl">Contador: <span id="tiempo-restante"></span></h2>
+        <h2 id="Contador1" class="text-2xl">
+          Contador: <span id="tiempo-restante"></span>
+        </h2>
       </div>
       <div class="space-x-4">
         <button

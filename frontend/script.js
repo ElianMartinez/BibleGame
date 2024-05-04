@@ -1,4 +1,4 @@
-const url = "http://209.126.87.46:3000";
+const url = "http://localhost:3000";
 const preguntaTexto = document.getElementById("pregunta-texto");
 const tiempoRestante = document.getElementById("tiempo-restante");
 const btnNivel1 = document.getElementById("btn-nivel-1");
